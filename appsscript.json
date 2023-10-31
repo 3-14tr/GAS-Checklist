@@ -1,0 +1,50 @@
+{
+  "timeZone": "America/Sao_Paulo",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/userinfo.email", "https://www.googleapis.com/auth/drive.readonly", "https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/script.external_request", "https://www.googleapis.com/auth/script.container.ui", "https://www.googleapis.com/auth/gmail.send"],
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "set_all_false",
+      "functionName": "set_all_false",
+      "defaultShortcut": "Ctrl+Alt+Shift+0"
+    }, {
+      "menuName": "GETRANGE",
+      "functionName": "GETRANGE",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    }, {
+      "menuName": "side_select",
+      "functionName": "side_select",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    }, {
+      "menuName": "teste",
+      "functionName": "teste",
+      "defaultShortcut": "Ctrl+Alt+Shift+7"
+    }, {
+      "menuName": "inspecione",
+      "functionName": "inspecione"
+    }, {
+      "menuName": "OI",
+      "functionName": "OI"
+    }, {
+      "menuName": "ABAS",
+      "functionName": "ABAS"
+    }, {
+      "menuName": "aoEditar",
+      "functionName": "aoEditar",
+      "defaultShortcut": "Ctrl+Alt+Shift+0"
+    }, {
+      "menuName": "offset",
+      "functionName": "offset"
+    }, {
+      "menuName": "a",
+      "functionName": "a"
+    }, {
+      "menuName": "liste_pendencias",
+      "functionName": "liste_pendencias",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    }]
+  }
+}
